@@ -59,7 +59,7 @@ const ReferEarn = () => {
 
     setLoading(true);
     try {
-      await axios.post("http://localhost:5000/api/referrals", formData);
+      await axios.post("https://accredian-asigbnment.onrender.com/api/referrals", formData);
       setSubmitted(true);
       setSnackbarMessage("Referral submitted successfully!");
       setSnackbarOpen(true);
